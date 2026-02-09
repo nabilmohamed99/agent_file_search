@@ -3,6 +3,8 @@ CLI entry point for the FsExplorer agent with LangGraph.
 Version corrigée pour Python 3.9
 """
 import asyncio
+from dotenv import load_dotenv
+load_dotenv()
 from datetime import datetime
 from typer import Typer, Option
 from typing import Annotated, Optional, Dict, Tuple # Ajouté Optional, Dict, Tuple
